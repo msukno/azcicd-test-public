@@ -1,7 +1,3 @@
-from app import app
+from run import create_app
 
-if __name__ == "__main__":
-    app.run()
-
-
-#init commit to public
+app = create_app()
